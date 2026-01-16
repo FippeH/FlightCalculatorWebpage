@@ -9,11 +9,6 @@ st.set_page_config(
 )
 
 st.markdown(
-
-    unsafe_allow_html=True
-)
-
-st.markdown(
     """
     <style>
     .block-container {
