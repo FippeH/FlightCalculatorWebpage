@@ -2,7 +2,11 @@ import streamlit as st
 from calculations import *
 from weather import hämta_MET_TAF
 
-st.set_page_config(page_title="FlightCalculator -- Haverinen", layout="wide")
+st.set_page_config(
+    page_title="Flygberäkningsverktyg -- Haverinen",
+    page_icon="icon.png",
+    layout="wide"
+)
 
 st.markdown(
     """
@@ -23,7 +27,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("✈️ Flight Calculator")
+st.title("✈️ Flygberäkningsverktyg")
 
 val = st.selectbox(
     "Välj funktion",
