@@ -23,8 +23,7 @@ st.markdown(
         width: 100%;
     }
     </style>
-    """,
-    """
+
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     """,
     unsafe_allow_html=True,
